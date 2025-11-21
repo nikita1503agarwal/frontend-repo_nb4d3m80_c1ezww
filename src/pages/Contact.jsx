@@ -5,25 +5,25 @@ export default function Contact() {
     <main className="max-w-5xl mx-auto px-4 py-12">
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-white">Contact</h1>
-        <p className="text-slate-300 mt-2">Get in touch or find us on the map.</p>
+        <p className="text-slate-400 mt-2">Get in touch or find us on the map.</p>
       </header>
 
       <div className="grid md:grid-cols-2 gap-8">
-        <div className="rounded-2xl bg-slate-800/60 border border-white/10 p-6">
+        <div className="rounded-xl border border-white/10 bg-slate-950 p-6">
           <h2 className="text-white font-semibold mb-2">Call Us</h2>
-          <a href="tel:+43600123456" className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-emerald-500 text-white font-medium hover:bg-emerald-600">
+          <a href="tel:+43600123456" className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white text-slate-900 font-medium hover:bg-slate-200">
             <Phone size={18} /> +43 600 123 456
           </a>
 
           <h2 className="text-white font-semibold mt-6 mb-2">Get Directions</h2>
-          <a href="https://maps.google.com/?q=Star+Kebab+%26+Pizza+Vienna" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-indigo-500 text-white font-medium hover:bg-indigo-600">
+          <a href="https://maps.google.com/?q=Star+Kebab+%26+Pizza+Vienna" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white/10 text-white font-medium hover:bg-white/20">
             <MapPin size={18} /> Open Google Maps
           </a>
 
-          <p className="text-slate-300 text-sm mt-6">Opening hours: Monday – Sunday, 11:00 – 23:00</p>
+          <p className="text-slate-400 text-sm mt-6">Opening hours: Monday – Sunday, 11:00 – 23:00</p>
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-white/10 bg-slate-800/60">
+        <div className="rounded-xl overflow-hidden border border-white/10 bg-slate-950">
           <iframe
             title="map"
             width="100%"
